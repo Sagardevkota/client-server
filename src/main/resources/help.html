@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .topnav {
+            overflow: hidden;
+        }
+
+        .topnav a {
+            float: left;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            color: black;
+        }
+
+        .topnav a:hover {
+        }
+
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .flex-element1 {
+            flex: 0 0 30%;
+            padding: 10px;
+            border-style: outset;
+        }
+
+        .flex-element2 {
+            flex: 0 0 70%;
+            padding: 10px;
+            border-style: outset;
+        }
+
+
+    </style>
+</head>
+
+<div class="topnav">
+    <a class="active" href="">Hide</a>
+    <a href="">Back</a>
+    <a href="">Print</a>
+    <a href="">Options</a>
+</div>
+
+<div style="padding-left:16px">
+
+</div>
+
+<body>
+
+<div class="flex-container">
+
+    <div class="flex-element1">
+        <p style="background-color: dodgerblue; color: white"> Connect </p>
+    </div>
+    <div class="flex-element2">
+        <h1>How to connect to the server</h1>
+        <p>You can connect to the server by dragging and dropping an available user name to the selected user text
+            field.
+            As example is shown below</p>
+
+        <img src="https://scontent.fpkr1-1.fna.fbcdn.net/v/t1.15752-9/244729569_1230951524079847_6687591676095060832_n.png?_nc_cat=108&ccb=1-5&_nc_sid=ae9488&_nc_ohc=BAW_bs1PR5sAX-owErq&_nc_ht=scontent.fpkr1-1.fna&oh=7201b482bba754126ddff23c760fb72b&oe=6182CE44"
+             alt="Help" width="600" height="500">
+        <p>Once you have selected a username, Click the connect button to connect to the server. </p>
+    </div>
+</div>
+
+</body>
+</html>
